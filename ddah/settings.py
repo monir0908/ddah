@@ -83,15 +83,15 @@ WSGI_APPLICATION = 'ddah.wsgi.application'
 # }
 
 DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.postgresql_psycopg2',
-            'NAME': 'd62hlp951mr58u',
-            'USER': 'xtdyzhphicqkve',
-            'PASSWORD': '4b27ce87dc2d10d282e540e5b0d81b21738e8eabc608bfa0640e8db50904a0f1',
-            'HOST': 'ec2-52-4-111-46.compute-1.amazonaws.com',
-            'PORT': '5432',
-        }
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'wimsDB',
+        'USER': 'postgres',
+        'PASSWORD': '123456',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
+}
 
 
 
